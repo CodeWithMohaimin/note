@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Note</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./app.js"></script>
+</head>
+<body>
+
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form " action="https://onlinenotepad.org/notepad" target="_blank">
+                <h2>Log In Your Account</h2>
+                <input type="text" required placeholder="Username" id="user" autocomplete="off" />
+                <div class="iew">
+                    <input oninput="return formvalid()" type="password" required placeholder="Password" id="pass" autocomplete="off" />
+                <img class="eye" src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
+                    onclick="show()" id="showimg">  
+                </div>
+                <span id="vaild-pass"></span>
+                <button type="submit">SIGN IN</button>
+                <p class="message"><a href="./forget/forget.html">Forgot your password?</a></p>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
+</>
